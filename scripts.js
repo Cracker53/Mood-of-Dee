@@ -1,4 +1,3 @@
-<script>
     const moodSelector = document.getElementById('moodSelector');
     const toggleMusic = document.getElementById('toggleMusic');
     const moodMessage = document.getElementById('moodMessage');
@@ -95,4 +94,4 @@
 
     createParticles();
     animateParticles();
-  </script>
+
