@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             toggleMusic.textContent = 'Play Music';
         }
     });
+audioPlayer.play().catch(() => console.log("Autoplay blocked by browser."));
 
     // Floating particles animation
     const canvas = document.getElementById('bgCanvas');
